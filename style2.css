@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(../pexels-pixabay-289324\ \(1\).jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.rodape{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #008080;
+    border-radius: 50px;
+    padding: 9px 25px;
+
+}
+nav li a:hover{
+    color: #008080;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: #008080;
+    transition: all 0.4s ease 0s;
+}
+.container{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 120px 40px;
+} 
+.img1 #imagem_quadrada1 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #008080;
+    text-align: center;
+} 
+.img2 #imagem_redonda {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #008080;
+    text-align: center;
+} 
+.img3 #imagem_quadrada2 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #008080;
+    text-align: center;
+} 
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+    footer p {
+        display: none;
+    }
+}
+
